@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: #000000ec;
+    overflow: hidden;
+}
+span{
+    background: url('Jyotipriya1 png.png');
+    position: absolute;
+    /* height: 100px;
+    width: 100px; */
+    pointer-events: none;
+    background-size: cover;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    animation: animate 6s linear;
+}
+.new{
+    background: url('jyoti 3 png.png');
+    position: absolute;
+    /* height: 100px;
+    width: 100px; */
+    pointer-events: none;
+    background-size: cover;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    animation: animate 6s linear;
+}
+@keyframes animate {
+    0%{
+        transform: translate(-50%,-50%);
+        opacity: 1;
+    }
+    100%{
+        transform: translate(-50%,-5000%);
+        opacity: 0;
+    }
+}
+.footer{
+    height: 150px;
+    width: 350px;
+    margin: 0 auto;
+    border: 2px solid white;
+    color: antiquewhite;
+    font-family: cursive;
+    position: relative;
+    top:450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-image:url('WhatsApp Image 2024-02-22 at 15.22.26_07d44e6f.jpg') ;
+    background-position:center;
+    background-size: cover;
+}
+.footer a{
+    position: absolute;
+    top: -20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: aliceblue;
+}
+.footer audio{
+    margin-top: 30px;
+}
