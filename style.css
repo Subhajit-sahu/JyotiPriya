@@ -39,8 +39,8 @@ span{
     }
 }
 .footer{
-    height: 150px;
-    width: 350px;
+    height: 200px;
+    width: 380px;
     margin: 0 auto;
     border: 2px solid white;
     color: antiquewhite;
@@ -51,7 +51,7 @@ span{
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    background-image:url('WhatsApp Image 2024-02-22 at 15.22.26_07d44e6f.jpg') ;
+    background-image:url('Jp.jpg');
     background-position:center;
     background-size: cover;
 }
@@ -63,5 +63,5 @@ span{
     color: aliceblue;
 }
 .footer audio{
-    margin-top: 30px;
+    margin-top: 100px;
 }
